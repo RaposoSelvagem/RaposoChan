@@ -5,23 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contenido</title>
     <style>
-        /* Estilo para a imagem de fundo */
         body {
-            background-image: url('https://i.ibb.co/rHS09XW/cpp.png'); /* Insira o caminho da imagem ou a URL */
-            background-size: cover;  /* Faz com que a imagem cubra toda a tela */
-            background-position: center; /* Centraliza a imagem */
-            background-attachment: fixed; /* Faz com que a imagem não role com o conteúdo */
+            background-image: url('https://i.ibb.co/rHS09XW/cpp.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
-            color: white; /* Cor do texto */
+            color: white;
         }
 
         .container {
             max-width: 600px;
             margin: auto;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para facilitar a leitura */
+            background-color: rgba(0, 0, 0, 0.5);
             border-radius: 5px;
         }
 
@@ -37,13 +36,18 @@
             margin: 20px 0;
         }
 
-        /* Estilo para a imagem de preview */
         .preview-image {
-            max-width: 50%; /* Ajuste o valor para o tamanho desejado */
+            max-width: 50%;
             height: auto;
             margin: 20px 0;
             border: 2px solid #fff;
             border-radius: 5px;
+        }
+
+        /* Estilo personalizado para o botão PayPal */
+        .paypal-button {
+            width: 300px; /* Ajuste a largura desejada */
+            height: auto;  /* Ajuste a altura conforme necessário */
         }
     </style>
 </head>
@@ -51,25 +55,22 @@
 
 <div class="container">
     <h1>Buy to receive videos and images</h1>
-    <p>2 Terabytes of videos and images .</p>
+    <p>2 Terabytes of videos and images.</p>
 
-    <!-- Espaço para a imagem de preview -->
     <div>
         <img src="https://i.ibb.co/NWQ0Lvf/2-tb-mega-folder-link-in-comment-new-collection-bcoi2y74iu.jpg" alt="Preview do Produto" class="preview-image">
     </div>
     
     <div class="product">
         <h2></h2>
-        <p><strong>Price:</strong> 3$</p>
     </div>
     
     <div class="button-container">
-        <!-- Botão de Pagamento do PayPal -->
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="U9HU89946HT8C" />
-            <input type="hidden" name="currency_code" value="BRL" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" title="O PayPal é a forma fácil e segura de pagar suas compras on-line." alt="Comprar agora" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://lavendercottagecattery.co.uk/wp-content/uploads/2022/10/CITYPNG.COMDownload-PayPal-Yellow-Payment-Button-PNG-2100x770-2.png" border="0" name="submit" title="O PayPal é a forma fácil e segura de pagar suas compras on-line." alt="Comprar agora" class="paypal-button" />
         </form>
     </div>
     
@@ -78,4 +79,5 @@
 
 </body>
 </html>
+
 
