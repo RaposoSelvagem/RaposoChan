@@ -40,7 +40,7 @@
             margin-bottom: 20px;
         }
         .preview-image {
-            width: 60%;
+            width: 40%;
             border-radius: 8px;
             margin: 20px 0;
             border: 3px solid #ddd;
