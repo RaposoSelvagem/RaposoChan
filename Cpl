@@ -1,69 +1,68 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contenido</title>
+    <title>Content Blog</title>
     <style>
         body {
-            background-image: url('https://i.ibb.co/0tGFR2f/download-32.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .navbar {
+            background-color: #4285f4;
+            padding: 10px;
             color: white;
+            text-align: center;
+            font-size: 24px;
         }
-
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 5px;
+        .content {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-
         h1 {
-            color: #fff;
+            font-size: 30px;
+            color: #4285f4;
+            margin-bottom: 10px;
         }
-
-        .product {
-            margin: 20px 0;
+        .highlight-text {
+            font-weight: bold;
+            font-size: 20px;
+            color: #444;
+            margin-bottom: 20px;
         }
-
-        .button-container {
-            margin: 20px 0;
-        }
-
         .preview-image {
-            max-width: 50%;
-            height: auto;
+            width: 60%;
+            border-radius: 8px;
             margin: 20px 0;
-            border: 2px solid #fff;
-            border-radius: 5px;
+            border: 3px solid #ddd;
         }
-
-        /* Estilo personalizado para o botão PayPal */
+        .button-container {
+            text-align: center;
+            margin: 25px 0;
+        }
         .paypal-button {
-            width: 300px; /* Ajuste a largura desejada */
-            height: auto;  /* Ajuste a altura conforme necessário */
+            width: 280px;
+            height: auto;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Buy to receive videos and images</h1>
-    <p>2 Terabytes of videos and images.</p>
-
-    <div>
-        <img src="https://i.ibb.co/NWQ0Lvf/2-tb-mega-folder-link-in-comment-new-collection-bcoi2y74iu.jpg" alt="Preview do Produto" class="preview-image">
-    </div>
+<div class="content">
+    <h1>Exclusive Content Access</h1>
+    <p class="highlight-text">Get access to 2TB of exclusive content including videos and images.</p>
     
-    <div class="product">
-        <h2></h2>
-    </div>
+    <img src="https://i.ibb.co/NWQ0Lvf/2-tb-mega-folder-link-in-comment-new-collection-bcoi2y74iu.jpg" alt="Preview" class="preview-image">
     
     <div class="button-container">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -74,10 +73,8 @@
         </form>
     </div>
     
-    <p>After payment, you will receive a mega link of full content. Enjoy yourself.</p>
+    <p class="highlight-text">Once you complete the payment, Paypal will redirect you to access all megalink content. Enjoy!</p>
 </div>
 
 </body>
 </html>
-
-
