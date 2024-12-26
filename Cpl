@@ -53,6 +53,8 @@
             width: 280px;
             height: auto;
             cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -65,15 +67,14 @@
     <img src="https://i.ibb.co/v1yMbMc/f22715fb279ff541835a92993de6304f8.png" alt="Preview" class="preview-image">
     
     <form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="business" value="EXJY54QGZJMR2" />
-<input type="hidden" name="amount" value="2" />
-<input type="hidden" name="no_recurring" value="1" />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://pics.paypal.com/00/s/ODI5Yzg0ZTktMDQ5MS00MGQyLTg2ZDYtNzk3NmQxOGZkNWU4/file.JPG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
-</form>
+        <input type="hidden" name="business" value="EXJY54QGZJMR2" />
+        <input type="hidden" name="amount" value="2" />
+        <input type="hidden" name="no_recurring" value="1" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" class="paypal-button" alt="Donate with PayPal button">
+        <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1">
+    </form>
 
-    
     <p class="highlight-text">Once you complete the payment, Paypal will redirect you to access all megalink content. Enjoy!</p>
 </div>
 
